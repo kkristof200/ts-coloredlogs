@@ -22,6 +22,6 @@
     },
     "author": "Kristóf-Attila Kovács",
     "name": "colored-id-logger",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "description": "colored logs with ids"
 }
