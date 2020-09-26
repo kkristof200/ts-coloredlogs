@@ -1,17 +1,17 @@
-# coloredlogs
+# coloredlogger
 
-colored logs with ids
+colored logger with ids
 
 ## Install
 
 ```bash
-npm i coloredlogs
+npm i coloredlogger
 ```
 
 ## Usage
 
 ```typescript
-import { Logger } from 'coloredlogs'
+import { Logger } from 'coloredlogger'
 
 const log = new Logger('myLogger-1')
 

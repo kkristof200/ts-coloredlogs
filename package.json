@@ -21,7 +21,7 @@
         "access": "public"
     },
     "author": "Kristóf-Attila Kovács",
-    "name": "coloredlogs",
-    "version": "0.0.2",
+    "name": "coloredlogger",
+    "version": "0.0.3",
     "description": "colored logs with ids"
 }
