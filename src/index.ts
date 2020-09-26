@@ -1,1 +1,1 @@
-export * from './colored-logger/colored-logger'
+export * from './colored-id-logger/colored-id-logger'
