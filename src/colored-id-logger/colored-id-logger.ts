@@ -49,28 +49,28 @@ export class Logger {
 
     // Static
 
-    static log(message?: any, ...optionalParams: any[]) {
-        this.info(message, ...optionalParams)
+    static log(message?: any, name?: string, ...optionalParams: any[]) {
+        this.info(message, name, ...optionalParams)
     }
 
-    static info(message?: any, ...optionalParams: any[]) {
-        this._log(typeInfo, null, this.active, message, ...optionalParams)
+    static info(message?: any, name?: string, ...optionalParams: any[]) {
+        this._log(typeInfo, name, this.active, message, ...optionalParams)
     }
 
-    static success(message?: any, ...optionalParams: any[]) {
-        this._log(typeSuccess, null, this.active, message, ...optionalParams)
+    static success(message?: any, name?: string, ...optionalParams: any[]) {
+        this._log(typeSuccess, name, this.active, message, ...optionalParams)
     }
 
-    static fail(message?: any, ...optionalParams: any[]) {
-        this._log(typeFail, null, this.active, message, ...optionalParams)
+    static fail(message?: any, name?: string, ...optionalParams: any[]) {
+        this._log(typeFail, name, this.active, message, ...optionalParams)
     }
 
-    static error(message?: any, ...optionalParams: any[]) {
-        this._log(typeError, null, this.active, message, ...optionalParams)
+    static error(message?: any, name?: string, ...optionalParams: any[]) {
+        this._log(typeError, name, this.active, message, ...optionalParams)
     }
 
-    static warn(message?: any, ...optionalParams: any[]) {
-        this._log(typeWarning, null, this.active, message, ...optionalParams)
+    static warn(message?: any, name?: string, ...optionalParams: any[]) {
+        this._log(typeWarning, name, this.active, message, ...optionalParams)
     }
 
     private static _log(type: number, name?: string, active: boolean = true, message?: any, ...optionalParams: any[]) {
